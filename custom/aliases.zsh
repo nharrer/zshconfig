@@ -1,4 +1,9 @@
-alias vi=vim
+if [[ $(hostname) == "darkmatter" ]]; then
+    echo we are on darkmatter
+    alias vi=nvim
+    alias ls=eza
+fi
+
 alias l='ls -l'
 
 alias dc='docker-compose'
