@@ -2,6 +2,8 @@ if [[ $(hostname) == "darkmatter" ]]; then
     echo we are on darkmatter
     alias vi=nvim
     alias ls=eza
+else 
+    alias vi=vim
 fi
 
 alias l='ls -l'
