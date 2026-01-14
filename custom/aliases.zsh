@@ -1,6 +1,8 @@
 if [[ $(hostname) == "darkmatter" ]]; then
     alias vi=nvim
     alias ls=eza
+else 
+    alias vi=vim
 fi
 
 alias l='ls -l'
